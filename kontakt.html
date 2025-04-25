@@ -2,13 +2,12 @@
 <html lang="sr">
 <head>
     <meta charset="UTF-8">
-    <title>Igraonica Ha Ku</title>
+    <title>Kontakt - Igraonica Ha Ku</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Igraonica Ha Ku</h1>
-        <p>Najveselija rođendaonica za decu!</p>
         <nav>
             <a href="index.html">Početna</a>
             <a href="onama.html">O nama</a>
@@ -19,17 +18,23 @@
     </header>
 
     <main>
-        <section>
-            <h2>Dobrodošli!</h2>
-            <p>Organizujemo nezaboravne rođendane za decu uz puno igre, zabave i smeha!</p>
-            <img src="slika-igraonica.jpg" alt="Igraonica Ha Ku" width="500">
-        </section>
+        <h2>Kontakt</h2>
+        <form>
+            <label for="ime">Ime:</label><br>
+            <input type="text" id="ime" name="ime"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="poruka">Poruka:</label><br>
+            <textarea id="poruka" name="poruka"></textarea><br><br>
+
+            <button type="submit">Pošaljite</button>
+        </form>
     </main>
 
     <footer>
         <p>&copy; 2025 Igraonica Ha Ku</p>
     </footer>
-
-    <script src="script.js"></script>
 </body>
 </html>
